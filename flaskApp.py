@@ -86,7 +86,11 @@ def get_all_pcinterview():
         }
     ), 404
 
-telegramToken="5311044834:AAH1xWt4zqVvevo_zhTphtZmk-X7FgNNbCw" 
+telegramToken=""
+if telegramToken == "":
+    raise RuntimeError(
+        f"the telegramToken was redacted. To test the code, please create your own Telegram bot as per README.md"
+    )
 
 async def requestPCInterview(userid):  
     bot = Bot(telegramToken)   
