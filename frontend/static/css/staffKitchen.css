@@ -1,0 +1,19 @@
+.oneOrder {
+    background-color: #719a0a;
+    margin:3% 20%;
+    padding: 0.75rem 0.75rem;
+    border-radius:25px;
+}
+
+.foodTable {
+    margin-top:10px;
+}
+
+.updatemsg{
+    background-color: #fbaf32;
+    border-radius: 15px;
+}
+
+.errordiv {
+    padding:10%;
+}

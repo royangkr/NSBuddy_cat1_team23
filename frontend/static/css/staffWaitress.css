@@ -1,0 +1,12 @@
+.customerInfo {
+    background-color:#719a0a ;
+    border-radius: 15px;
+    padding:10px;
+}
+
+.customerInfoError{
+    background-color: maroon;
+    color:white;
+    border-radius: 15px;
+    padding:10px;
+}
